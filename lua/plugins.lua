@@ -34,6 +34,7 @@ return require('packer').startup {
 		use "wbthomason/packer.nvim"
 
     use 'neovim/nvim-lspconfig'
+		use 'simrat39/rust-tools.nvim'
 
 		-- 目录
 		use {
