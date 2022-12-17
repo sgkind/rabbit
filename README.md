@@ -114,3 +114,14 @@ tesescope
 ```
 sudo apt install fd-find
 ```
+
+### nvim-treesitter
+#### 查看已安装的language parser
+```
+:TSInstallInfo
+```
+
+#### 手动安装Language parser
+```
+:TSInstall c/cpp/rust
+```
