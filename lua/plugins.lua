@@ -41,6 +41,15 @@ return require('packer').startup {
 			requires = {'nvim-tree/nvim-web-devicons'},
 			tag = 'nightly'
 		}
+
+		-- highlight
+		use {
+			'nvim-treesitter/nvim-treesitter',
+			run = ':TSUpdate'
+		}
+
+		-- indent
+		use "lukas-reineke/indent-blankline.nvim"
 	end,
 	config = {
 		max_jobs = 16,

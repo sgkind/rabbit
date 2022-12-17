@@ -1,5 +1,4 @@
 " 基本配置
-
 set number
 filetype plugin indent on
 set showmatch
