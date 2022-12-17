@@ -27,6 +27,12 @@
 |  n  |<leader>k| 跳到下边分屏 |
 |  n  |<leader>l| 跳到右边分屏 |
 
+buffer相关
+| 模式 | 快捷键 | 功能 |
+| ---- | ------ | ---- |
+|  n  |<leader>n| 下一个buffer |
+|  n  |<leader>p| 上一个buffer |
+
 ### 插件
 目录树
 | 模式 | 快捷键 | 功能 |

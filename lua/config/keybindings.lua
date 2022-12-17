@@ -35,6 +35,8 @@ map("n", "<leader>o", ":NvimTreeFocus<CR>", opts)
 map("n", "<leader>w", ":NvimTreeFindFile<CR>", opts)
 map("n", "<leader>c", ":NvimTreeCollapse<CR>", opts)
 
+-- buffer相关
+
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
