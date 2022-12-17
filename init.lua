@@ -1,4 +1,5 @@
  require('options')
+ require('impatient').enable_profile()
  require('plugins')
  require('config/lsp')
  require('config/others')
