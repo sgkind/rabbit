@@ -25,3 +25,5 @@ call plug#end()
 
 :lua require("plugins")
 :lua require("config/lsp")
+:lua require("config/others")
+:lua require("config/keybindings")

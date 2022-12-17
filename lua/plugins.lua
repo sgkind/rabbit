@@ -34,11 +34,16 @@ return require('packer').startup {
 		use "wbthomason/packer.nvim"
 
     use 'neovim/nvim-lspconfig'
+
+		-- 目录
+		use {
+			'nvim-tree/nvim-tree.lua',
+			requires = {'nvim-tree/nvim-web-devicons'},
+			tag = 'nightly'
+		}
 	end,
 	config = {
 		max_jobs = 16,
 		compile_path = packer_util.join_paths("~/.config/nvim/", "site", "lua", "packer_compiled.lua"),
 	},
 }
-
-
