@@ -4,6 +4,7 @@
 ### 通用
 | 模式 | 快捷键 |  功能  |
 | ---- | ------ | ------ |
+|  n  | Ctrl+^ | 返回上一buffer|
 |  n  | Ctrl+u | 光标上移9行 |
 |  n  | Ctrl+d | 光标下移9行 |
 |  v  |   <    | 缩进代码    |
@@ -26,6 +27,7 @@
 |  n  |<leader>k| 跳到下边分屏 |
 |  n  |<leader>l| 跳到右边分屏 |
 
+### 插件
 目录树
 | 模式 | 快捷键 | 功能 |
 | ---- | ------ | ----- |
@@ -33,6 +35,14 @@
 |  n   |<leader>o| 激活目录    |
 |  n   |<leader>w| 跳转到目录当前文件处|
 |  n   |<leader>c| Collapse目录|
+
+* o 打开关闭文件夹
+* a 创建文件
+* r 重命名
+* x 剪切
+* c 拷贝
+* p 粘贴
+* d 删除
 
 telescope
 | 模式 | 快捷键 | 功能 |
@@ -53,6 +63,10 @@ nvim-cmp
 | Ctrl+u | 文档上移4行|
 | Ctrl+d | 文档下移4行|
 
+## 命令
+* `:ls` 列出所有buffers
+* `:bn` 切换到n号buffer
+
 ## Plugins
 ### Plug
 * vim-plug
@@ -68,6 +82,7 @@ nvim-cmp
 * indent-blankline
 * telescope
 * cmp-nvim-lsp
+* lualine
 
 ## 依赖
 ### clangd

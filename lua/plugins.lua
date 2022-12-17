@@ -69,6 +69,12 @@ return require('packer').startup {
 		use 'rafamadriz/friendly-snippets'
 		-- lspkind
 		use 'onsails/lspkind-nvim'
+
+		-- A blazing fast and easy to configure neovim statusline
+    use {
+			'nvim-lualine/lualine.nvim',
+			requires = { 'kyazdani42/nvim-web-devicons', opt = true}
+		}
 	end,
 	config = {
 		max_jobs = 16,
