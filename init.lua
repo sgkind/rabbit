@@ -6,5 +6,6 @@
  require('config/nvim-treesitter')
  require('config/rust-tools')
  require('config/nvim-cmp')
+ require('config/toggleterm')
  require('config/lualine')
  require('config/keybindings')

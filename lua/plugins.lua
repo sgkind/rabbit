@@ -70,6 +70,11 @@ return require('packer').startup {
 		-- lspkind
 		use 'onsails/lspkind-nvim'
 
+		use {
+			"akinsho/toggleterm.nvim",
+			tag = '*',
+		}
+
 		-- A blazing fast and easy to configure neovim statusline
     use {
 			'nvim-lualine/lualine.nvim',
