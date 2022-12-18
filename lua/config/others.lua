@@ -4,8 +4,9 @@ vim.opt.termguicolors = true
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 require("nvim-tree").setup({
-	-- 关闭文件时，自动关闭
-	auto_close = true,
+	view = {
+		adaptive_size = true,
+	},
   filters = {
 		custom = {
 		  ".git/"
