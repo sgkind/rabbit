@@ -33,7 +33,7 @@ return require('packer').startup {
 
 		use "wbthomason/packer.nvim"
 
-        use 'neovim/nvim-lspconfig'
+    use 'neovim/nvim-lspconfig'
 		use 'simrat39/rust-tools.nvim'
 
 		-- 目录
@@ -48,6 +48,9 @@ return require('packer').startup {
 			'nvim-treesitter/nvim-treesitter',
 			run = ':TSUpdate'
 		}
+
+		-- auto pair
+		use "steelsojka/pears.nvim"
 
 		-- indent
 		use "lukas-reineke/indent-blankline.nvim"

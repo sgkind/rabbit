@@ -31,6 +31,9 @@ require("indent_blankline").setup {
 	space_char_blankline = " ",
 }
 
+-- for pear
+require("pears").setup()
+
 -- for telescope
 require("telescope").setup ({
 })
