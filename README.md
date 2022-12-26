@@ -108,6 +108,9 @@ telescope
 sudo apt install ripgrep
 ```
 
+### rust analyzer
+[rust analyzer](https://rust-analyzer.github.io/manual.html#rust-analyzer-language-server-binary)
+
 ### sharkdp/fd
 #### required by
 tesescope
