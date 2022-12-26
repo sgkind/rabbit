@@ -57,7 +57,8 @@ pluginKeys.cmp = function(cmp)
 			c = cmp.mapping.close(),
 		}),
 		-- 确认
-		['<CR>'] = cmp.mapping.confirm({
+		-- ['<CR>'] = cmp.mapping.confirm({
+		['<Tab>'] = cmp.mapping.confirm({
 			select = true,
 			behavior = cmp.ConfirmBehavior.Replace
 		}),
