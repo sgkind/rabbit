@@ -70,6 +70,11 @@ nvim-cmp
 | Ctrl+u | 文档上移4行|
 | Ctrl+d | 文档下移4行|
 
+toggleterm
+| 快捷键 | 功能 |
+| ------ | ---- |
+| Ctrl+\ | 打开关闭终端 |
+
 ## 命令
 * `:ls` 列出所有buffers
 * `:bn` 切换到n号buffer
