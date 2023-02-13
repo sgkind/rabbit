@@ -37,3 +37,5 @@ require("pears").setup()
 -- for telescope
 require("telescope").setup ({
 })
+
+vim.cmd("colorscheme nightfox")
