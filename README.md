@@ -96,41 +96,57 @@ toggleterm
 * cmp-nvim-lsp
 * lualine
 
-## 依赖
-### clangd
-#### required by
+## 安装
+### 安装packer
+```
+git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+
+### 安装依赖
+#### clangd
+##### required by
 lsp-config
-#### 安装
+##### 安装
 ```
 sudo apt install clangd
 ```
 
-### ripgrep
-#### required by
+#### ripgrep
+##### required by
 telescope
-#### 安装
+##### 安装
 ```
 sudo apt install ripgrep
 ```
 
-### rust analyzer
+#### rust analyzer
 [rust analyzer](https://rust-analyzer.github.io/manual.html#rust-analyzer-language-server-binary)
 
-### sharkdp/fd
-#### required by
+#### sharkdp/fd
+##### required by
 tesescope
-#### 安装
+##### 安装
 ```
 sudo apt install fd-find
 ```
 
-### nvim-treesitter
-#### 查看已安装的language parser
+#### nvim-treesitter
+##### 查看已安装的language parser
 ```
 :TSInstallInfo
 ```
 
-#### 手动安装Language parser
+##### 手动安装Language parser
 ```
 :TSInstall c/cpp/rust
+```
+
+### 依赖包
+安装
+```
+:PackerInstall
+```
+更新
+```
+:PackerSync
 ```
