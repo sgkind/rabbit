@@ -9,3 +9,4 @@
  require('config/toggleterm')
  require('config/lualine')
  require('config/keybindings')
+ require('config/git')

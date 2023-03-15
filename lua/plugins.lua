@@ -65,6 +65,8 @@ return require('packer').startup {
 		}
 
     use "EdenEast/nightfox.nvim"
+
+    use "f-person/git-blame.nvim"
 	end,
 	config = {
 		max_jobs = 16,
