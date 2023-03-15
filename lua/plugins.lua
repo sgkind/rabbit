@@ -67,6 +67,8 @@ return require('packer').startup {
     use "EdenEast/nightfox.nvim"
 
     use "f-person/git-blame.nvim"
+
+    use 'vim-scripts/DoxygenToolkit.vim'
 	end,
 	config = {
 		max_jobs = 16,
