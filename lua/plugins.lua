@@ -69,6 +69,11 @@ return require('packer').startup {
     use "f-person/git-blame.nvim"
 
     use 'vim-scripts/DoxygenToolkit.vim'
+
+    use {
+      'sindrets/diffview.nvim',
+      requires = { 'nvim-lua/plenary.nvim'}
+    }
 	end,
 	config = {
 		max_jobs = 16,
