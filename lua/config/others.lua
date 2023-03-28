@@ -13,8 +13,4 @@ require("indent_blankline").setup {
 -- for pear
 require("pears").setup()
 
--- for telescope
-require("telescope").setup ({
-})
-
 vim.cmd("colorscheme nightfox")
